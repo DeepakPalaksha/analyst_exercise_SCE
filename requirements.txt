@@ -1,0 +1,9 @@
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+jupyter>=1.0
+# For the MILP battery dispatch in Q8b
+cvxpy>=1.4
+highspy>=1.5
+# Only needed if you want to rebuild the notebook via build_notebook.py
+nbformat>=5.9
