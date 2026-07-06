@@ -118,8 +118,10 @@ The notebook reads everything from `data_test/` — no additional configuration.
 ## What I would do with more time
 
 - Verify tariff rates against SCE's 2024 tariff sheets (rates changed mid-year)
+- Extend the analysis to true PV production and temperature of the location data. 
 - Use the full **SCE NEM 3.0 hourly export rate matrix** (not the flat proxy)
 - Add binary switch variables to make Q8b a proper MILP (LP already good)
 - Cross-check computed bill against customer's actual SCE invoice
 - Multi-year comparison (data spans April 2023 – February 2025)
 - Sensitivity analysis: Option D vs Option E vs CPP-enabled
+
