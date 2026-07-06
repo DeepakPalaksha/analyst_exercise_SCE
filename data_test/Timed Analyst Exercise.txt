@@ -1,0 +1,51 @@
+Timed Analyst Exercise:
+The data:  Attached is a file of anonymized 15-minute interval data for a commercial 
+customer in Ontario, CA – in Southern California Edison’s service territory.  This file (aside 
+from the obvious replacement of identifying information) was downloaded from our 
+UtilityAPI dashboard.  
+
+One more fact about this customer: They’re on the SCE tariff known as “TOU-GS-2-D.”  
+Because I assume you love reading tariffs, I’ve attached the pdf from SCE’s website 
+describing the details of that rate.
+
+Please don’t try to figure out the real customer name and address – but I would like to know 
+some other things about this customer.  Assume that the customer is billed once per 
+month, based on their usage during the calendar month.  Here come a lot of questions – 
+I’m as interested in your process as in the answers.  Tell me what tool you’re using to figure 
+out each answer – and include that tool.  If you’re making an excel file, send that.  If you’re 
+writing a python or R program, send that.  If you don’t finish (and you probably won’t), write 
+down (in your selected tool) where you left off on each question, and what you would do 
+next if you had more time.  Say what assumptions you’re making, and what external data 
+sources and tools you’d use if you could.  
+
+1.	The file is kind of messy, just as all real data are.  Extract all the calendar year 2024 
+data (and nothing else).  What is the peak demand for each month?  (Yes, just each 
+calendar month in 2024 – we can worry about “billing periods” another day!)
+
+2.	What is the peak demand during the On-Peak pricing period in each summer month, 
+and the peak demand in the Mid-Peak pricing period in each winter month?
+
+3.	What is the total energy usage in each month?  
+
+4.	What is the total energy usage in each time-of-use period for each month?  
+
+5.	Based on the attached tariff, about how much does the customer pay on their SCE 
+bill in each month?
+	a.	How much of that is based on demand?
+	b.	How much is based on energy?
+
+6.	Approximately how much of the energy used at this site is related to heating, 
+ventilation, and cooling?  How would you figure that out? What data would you use 
+and where would you get it?  How would you set up the problem, and how would you 
+solve it?
+
+7.	If a new PV solar system with a capacity of 300 kW (AC) were installed behind the 
+meter, by how much would all the values in questions 1 through 5 change?  How 
+would you figure that out? What data would you use and where would you get it?   
+How would you set up the problem, and how would you solve it?
+
+8.	Instead of solar, imagine a new battery system capable of storing 250 kWh is 
+installed behind the meter. By how much would all the values in questions 1 through 
+5 change?  How would you set up the problem, and how would you solve it?
+
+
